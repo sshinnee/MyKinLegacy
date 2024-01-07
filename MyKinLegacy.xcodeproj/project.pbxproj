@@ -16,6 +16,7 @@
 		8D046C152B4AD60C00DA064A /* MyKinLegacyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D046C142B4AD60C00DA064A /* MyKinLegacyTests.swift */; };
 		8D046C1F2B4AD60C00DA064A /* MyKinLegacyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D046C1E2B4AD60C00DA064A /* MyKinLegacyUITests.swift */; };
 		8D046C212B4AD60C00DA064A /* MyKinLegacyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D046C202B4AD60C00DA064A /* MyKinLegacyUITestsLaunchTests.swift */; };
+		8D47163C2B4AE05E00F55CF3 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D47163B2B4AE05E00F55CF3 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		8D046C1A2B4AD60C00DA064A /* MyKinLegacyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyKinLegacyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D046C1E2B4AD60C00DA064A /* MyKinLegacyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyKinLegacyUITests.swift; sourceTree = "<group>"; };
 		8D046C202B4AD60C00DA064A /* MyKinLegacyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyKinLegacyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8D47163B2B4AE05E00F55CF3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,8 @@
 		8D046BFC2B4AD60A00DA064A /* MyKinLegacy */ = {
 			isa = PBXGroup;
 			children = (
+				8D47163A2B4AE01700F55CF3 /* Models */,
+				8D4716392B4AE01200F55CF3 /* Views */,
 				8D046BFD2B4AD60A00DA064A /* MyKinLegacyApp.swift */,
 				8D046BFF2B4AD60A00DA064A /* Persistence.swift */,
 				8D046C042B4AD60A00DA064A /* ContentView.swift */,
@@ -133,6 +137,21 @@
 				8D046C202B4AD60C00DA064A /* MyKinLegacyUITestsLaunchTests.swift */,
 			);
 			path = MyKinLegacyUITests;
+			sourceTree = "<group>";
+		};
+		8D4716392B4AE01200F55CF3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8D47163B2B4AE05E00F55CF3 /* LoginView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8D47163A2B4AE01700F55CF3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,6 +287,7 @@
 				8D046BFE2B4AD60A00DA064A /* MyKinLegacyApp.swift in Sources */,
 				8D046C002B4AD60A00DA064A /* Persistence.swift in Sources */,
 				8D046C052B4AD60A00DA064A /* ContentView.swift in Sources */,
+				8D47163C2B4AE05E00F55CF3 /* LoginView.swift in Sources */,
 				8D046C032B4AD60A00DA064A /* MyKinLegacy.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
