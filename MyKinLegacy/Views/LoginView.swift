@@ -9,10 +9,12 @@ import SwiftUI
 
 struct LoginView: View {
     var body: some View {
-        Button {
-            
-        } label: {
-            Text("Log in with SingPass")
+        NavigationView {
+            NavigationLink {
+                StarterView()
+            } label: {
+                Text("Log in with SingPass")
+            }
         }
     }
 }

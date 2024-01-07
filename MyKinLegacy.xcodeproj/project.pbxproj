@@ -17,6 +17,7 @@
 		8D046C1F2B4AD60C00DA064A /* MyKinLegacyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D046C1E2B4AD60C00DA064A /* MyKinLegacyUITests.swift */; };
 		8D046C212B4AD60C00DA064A /* MyKinLegacyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D046C202B4AD60C00DA064A /* MyKinLegacyUITestsLaunchTests.swift */; };
 		8D47163C2B4AE05E00F55CF3 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D47163B2B4AE05E00F55CF3 /* LoginView.swift */; };
+		8D47163E2B4AE32E00F55CF3 /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D47163D2B4AE32E00F55CF3 /* StarterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		8D046C1E2B4AD60C00DA064A /* MyKinLegacyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyKinLegacyUITests.swift; sourceTree = "<group>"; };
 		8D046C202B4AD60C00DA064A /* MyKinLegacyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyKinLegacyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8D47163B2B4AE05E00F55CF3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		8D47163D2B4AE32E00F55CF3 /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				8D47163B2B4AE05E00F55CF3 /* LoginView.swift */,
+				8D47163D2B4AE32E00F55CF3 /* StarterView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 			files = (
 				8D046BFE2B4AD60A00DA064A /* MyKinLegacyApp.swift in Sources */,
 				8D046C002B4AD60A00DA064A /* Persistence.swift in Sources */,
+				8D47163E2B4AE32E00F55CF3 /* StarterView.swift in Sources */,
 				8D046C052B4AD60A00DA064A /* ContentView.swift in Sources */,
 				8D47163C2B4AE05E00F55CF3 /* LoginView.swift in Sources */,
 				8D046C032B4AD60A00DA064A /* MyKinLegacy.xcdatamodeld in Sources */,
