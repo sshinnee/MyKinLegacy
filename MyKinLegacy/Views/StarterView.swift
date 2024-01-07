@@ -9,12 +9,28 @@ import SwiftUI
 
 struct StarterView: View {
     @State private var uin = String()
+    @State private var isNavigationActive = false
+    
     var body: some View {
         VStack {
             TextField("Please enter the NRIC/FIN of your loved one", text: $uin)
                 .multilineTextAlignment(.center)
+                .padding()
+            
+            NavigationLink {
+                RelationshipCheckView()
+            } label: {
+                Text("Check Status")
+                    .foregroundColor(.white)
+                    .padding()
+                    .background(
+                        Capsule (style: .continuous)
+                    )
+            }
+                .disabled(uin.count != 9)
+
         }
-    }
+}
 }
 
 struct StarterView_Previews: PreviewProvider {
