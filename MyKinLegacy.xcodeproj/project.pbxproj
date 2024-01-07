@@ -18,7 +18,7 @@
 		8D046C212B4AD60C00DA064A /* MyKinLegacyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D046C202B4AD60C00DA064A /* MyKinLegacyUITestsLaunchTests.swift */; };
 		8D47163C2B4AE05E00F55CF3 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D47163B2B4AE05E00F55CF3 /* LoginView.swift */; };
 		8D47163E2B4AE32E00F55CF3 /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D47163D2B4AE32E00F55CF3 /* StarterView.swift */; };
-		8D4716402B4AED6500F55CF3 /* RelationshipCheckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D47163F2B4AED6500F55CF3 /* RelationshipCheckView.swift */; };
+		8D4716402B4AED6500F55CF3 /* RelationshipCheckResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D47163F2B4AED6500F55CF3 /* RelationshipCheckResultView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +54,7 @@
 		8D046C202B4AD60C00DA064A /* MyKinLegacyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyKinLegacyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8D47163B2B4AE05E00F55CF3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		8D47163D2B4AE32E00F55CF3 /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
-		8D47163F2B4AED6500F55CF3 /* RelationshipCheckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelationshipCheckView.swift; sourceTree = "<group>"; };
+		8D47163F2B4AED6500F55CF3 /* RelationshipCheckResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelationshipCheckResultView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,7 +148,7 @@
 			children = (
 				8D47163B2B4AE05E00F55CF3 /* LoginView.swift */,
 				8D47163D2B4AE32E00F55CF3 /* StarterView.swift */,
-				8D47163F2B4AED6500F55CF3 /* RelationshipCheckView.swift */,
+				8D47163F2B4AED6500F55CF3 /* RelationshipCheckResultView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -291,7 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D046BFE2B4AD60A00DA064A /* MyKinLegacyApp.swift in Sources */,
-				8D4716402B4AED6500F55CF3 /* RelationshipCheckView.swift in Sources */,
+				8D4716402B4AED6500F55CF3 /* RelationshipCheckResultView.swift in Sources */,
 				8D046C002B4AD60A00DA064A /* Persistence.swift in Sources */,
 				8D47163E2B4AE32E00F55CF3 /* StarterView.swift in Sources */,
 				8D046C052B4AD60A00DA064A /* ContentView.swift in Sources */,
