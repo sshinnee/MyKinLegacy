@@ -9,13 +9,26 @@ import SwiftUI
 
 struct LoginView: View {
     var body: some View {
-        NavigationView {
-            NavigationLink {
-                StarterView()
-            } label: {
-                Text("Log in with SingPass")
+        
+        VStack {
+            Spacer()
+            
+            Text("Estate Settlement Discovery Tool")
+                .font(.largeTitle)
+                .padding()
+                .multilineTextAlignment(.center)
+            
+            NavigationView {
+                NavigationLink {
+                    StarterView()
+                } label: {
+                    Text("Log in with SingPass")
+                }
             }
         }
+        
+        
+        
     }
 }
 
