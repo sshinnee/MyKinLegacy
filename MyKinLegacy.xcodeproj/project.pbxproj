@@ -19,6 +19,7 @@
 		8D47163C2B4AE05E00F55CF3 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D47163B2B4AE05E00F55CF3 /* LoginView.swift */; };
 		8D47163E2B4AE32E00F55CF3 /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D47163D2B4AE32E00F55CF3 /* StarterView.swift */; };
 		8D4716402B4AED6500F55CF3 /* RelationshipCheckResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D47163F2B4AED6500F55CF3 /* RelationshipCheckResultView.swift */; };
+		8DB159042B54FCAF00C554E3 /* AssetCheckListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB159032B54FCAF00C554E3 /* AssetCheckListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		8D47163B2B4AE05E00F55CF3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		8D47163D2B4AE32E00F55CF3 /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
 		8D47163F2B4AED6500F55CF3 /* RelationshipCheckResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelationshipCheckResultView.swift; sourceTree = "<group>"; };
+		8DB159032B54FCAF00C554E3 /* AssetCheckListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetCheckListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 				8D47163B2B4AE05E00F55CF3 /* LoginView.swift */,
 				8D47163D2B4AE32E00F55CF3 /* StarterView.swift */,
 				8D47163F2B4AED6500F55CF3 /* RelationshipCheckResultView.swift */,
+				8DB159032B54FCAF00C554E3 /* AssetCheckListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DB159042B54FCAF00C554E3 /* AssetCheckListView.swift in Sources */,
 				8D046BFE2B4AD60A00DA064A /* MyKinLegacyApp.swift in Sources */,
 				8D4716402B4AED6500F55CF3 /* RelationshipCheckResultView.swift in Sources */,
 				8D046C002B4AD60A00DA064A /* Persistence.swift in Sources */,

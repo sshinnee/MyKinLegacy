@@ -30,7 +30,7 @@ struct RelationshipCheckResultView: View {
             switch caseId {
                 case "E", "F", "G":
                     NavigationLink {
-                        
+                        AssetCheckListView()
                     } label: {
                         Text("Proceed")
                             .foregroundColor(.white)
