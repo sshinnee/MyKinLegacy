@@ -9,8 +9,17 @@ import SwiftUI
 
 struct ClosingView: View {
     var body: some View {
-        Text("Your information has been submitted. Please check back in the app for updates.")
-            .padding()
+        VStack {
+            Text("Your information has been submitted. Please check back in the app for updates.")
+                .padding()
+            
+            NavigationLink {
+                StarterView()
+            } label: {
+                Text("Return Home")
+                    .padding()
+            }
+        }
     }
 }
 
