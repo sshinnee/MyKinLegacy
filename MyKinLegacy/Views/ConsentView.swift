@@ -8,17 +8,28 @@
 import SwiftUI
 
 struct ConsentView: View {
+    @Environment(\.dismiss) private var dismiss
+    
+    @State private var isShowingDetail = false
+    
     var body: some View {
+        
         Text("Do you consent to submit your personal and relationship information to the selected financial institutions?")
             .padding()
         
         HStack {
-            NavigationLink {
-                AssetCheckListView()
-            } label: {
-                Text("No")
-                    .padding()
+            Button("No") {
+                dismiss()
+
             }
+            .padding()
+//            NavigationLink(isActive: $isShowingDetail) {
+////                AssetCheckListView()
+////                dismiss()
+//            } label: {
+//                Text("No")
+//                    .padding()
+//            }
             NavigationLink {
                 ClosingView()
             } label: {
