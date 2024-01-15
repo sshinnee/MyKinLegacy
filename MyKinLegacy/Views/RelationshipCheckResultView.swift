@@ -32,7 +32,7 @@ struct RelationshipCheckResultView: View {
                     NavigationLink {
                         
                     } label: {
-                        Text("Check Status")
+                        Text("Proceed")
                             .foregroundColor(.white)
                             .padding()
                             .background(

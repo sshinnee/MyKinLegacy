@@ -18,7 +18,7 @@ struct StarterView: View {
                 .padding()
             
             NavigationLink {
-                RelationshipCheckResultView(caseId: String(uin.last ?? ""))
+                RelationshipCheckResultView(caseId: String(uin.last ?? "G"))
             } label: {
                 Text("Check Status")
                     .foregroundColor(.white)
