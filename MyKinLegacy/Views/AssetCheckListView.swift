@@ -68,7 +68,7 @@ struct AssetCheckListView: View {
             Spacer()
             
             NavigationLink {
-                
+                ConsentView()
             } label: {
                 Text("Notify")
                     .foregroundColor(.white)
