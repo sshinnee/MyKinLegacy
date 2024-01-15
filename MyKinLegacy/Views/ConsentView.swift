@@ -23,13 +23,7 @@ struct ConsentView: View {
 
             }
             .padding()
-//            NavigationLink(isActive: $isShowingDetail) {
-////                AssetCheckListView()
-////                dismiss()
-//            } label: {
-//                Text("No")
-//                    .padding()
-//            }
+
             NavigationLink {
                 ClosingView()
             } label: {
