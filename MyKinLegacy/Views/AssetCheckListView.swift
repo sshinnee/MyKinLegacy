@@ -8,10 +8,10 @@
 import SwiftUI
 
 struct AssetCheckListView: View {
-    @State private var dbsBankCheckboxDefault = false
-    @State private var ocbcBankCheckboxDefault = false
-    @State private var greatEasternCheckboxDefault = false
-    @State private var prudentialCheckboxDefault = false
+    @State private var dbsBankCheckboxDefault = true
+    @State private var ocbcBankCheckboxDefault = true
+    @State private var greatEasternCheckboxDefault = true
+    @State private var prudentialCheckboxDefault = true
     
     var body: some View {
         VStack {
