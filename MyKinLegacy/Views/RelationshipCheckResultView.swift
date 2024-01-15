@@ -23,7 +23,7 @@ struct RelationshipCheckResultView: View {
     
     var body: some View {
         VStack {
-            Text(map[caseId] ?? "")
+            Text((map[caseId] ?? map["A"]) ?? "")
                 .multilineTextAlignment(.center)
                 .padding()
             
