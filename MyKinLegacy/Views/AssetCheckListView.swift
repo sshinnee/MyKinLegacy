@@ -12,50 +12,70 @@ struct AssetCheckListView: View {
     
     var body: some View {
         VStack {
-            Text("Financial Institutions")
+            Text("Financial Institutions in SG")
                 .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
             
-            Spacer()
+//            Spacer()
             
-            Text("Banks")
-                .font(.title2)
-                .frame(alignment: .leading)
+            Divider()
             
             VStack {
+                Text("Banks")
+                    .font(.title2)
+                    .padding(.horizontal, 30)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                
                 HStack {
                     Spacer()
-                        .padding()
+//                        .padding()
                     Toggle("DBS",isOn: $checkboxDefault)
-    //                {
-    //                    Text("DBS")
-    //                        .frame(maxWidth: .infinity, alignment: .center)
-    //                }
                         .toggleStyle(.switch)
-    //                    .frame(alignment: .center)
                     Spacer()
-                        .padding()
+//                        .padding()
                 }
                 
                 HStack {
                     Spacer()
-                        .padding()
+//                        .padding()
                     Toggle("OCBC", isOn: $checkboxDefault)
                         .toggleStyle(.switch)
                     Spacer()
-                        .padding()
+//                        .padding()
                 }
                
             }
-//                .padding(.left, .right)
-                .frame(maxWidth: .infinity, alignment: .trailing)
+            
+            Divider()
+//                .frame(maxWidth: .infinity, alignment: .trailing)
             
             
-            
-            Text("Insurance Companies")
-                .font(.title2)
-            
+            VStack {
+                Text("Insurance Companies")
+                    .font(.title2)
+                    .padding(.horizontal, 30)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                
+                HStack {
+                    Spacer()
+                    //                    .padding(.horizontal, 30)
+                    Toggle("Great Eastern Singapore", isOn: $checkboxDefault)
+                        .toggleStyle(.switch)
+                    Spacer()
+                    //                    .padding(.horizontal, 10)
+                }
+                
+                HStack {
+                    Spacer()
+                    //                    .padding(.horizontal, 10)
+                    Toggle("Prudential Singapore", isOn: $checkboxDefault)
+                        .toggleStyle(.switch)
+                    Spacer()
+                    //                    .padding(.horizontal, 10)
+                }
+            }
             Spacer()
         }
+        .padding()
     }
 }
 
