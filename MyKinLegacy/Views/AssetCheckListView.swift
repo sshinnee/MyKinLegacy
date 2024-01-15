@@ -8,14 +8,15 @@
 import SwiftUI
 
 struct AssetCheckListView: View {
-    @State private var checkboxDefault = false
+    @State private var dbsBankCheckboxDefault = false
+    @State private var ocbcBankCheckboxDefault = false
+    @State private var greatEasternCheckboxDefault = false
+    @State private var prudentialCheckboxDefault = false
     
     var body: some View {
         VStack {
             Text("Financial Institutions in SG")
                 .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
-            
-//            Spacer()
             
             Divider()
             
@@ -27,27 +28,21 @@ struct AssetCheckListView: View {
                 
                 HStack {
                     Spacer()
-//                        .padding()
-                    Toggle("DBS",isOn: $checkboxDefault)
+                    Toggle("DBS",isOn: $dbsBankCheckboxDefault)
                         .toggleStyle(.switch)
                     Spacer()
-//                        .padding()
                 }
                 
                 HStack {
                     Spacer()
-//                        .padding()
-                    Toggle("OCBC", isOn: $checkboxDefault)
+                    Toggle("OCBC", isOn: $ocbcBankCheckboxDefault)
                         .toggleStyle(.switch)
                     Spacer()
-//                        .padding()
                 }
                
             }
             
             Divider()
-//                .frame(maxWidth: .infinity, alignment: .trailing)
-            
             
             VStack {
                 Text("Insurance Companies")
@@ -57,23 +52,31 @@ struct AssetCheckListView: View {
                 
                 HStack {
                     Spacer()
-                    //                    .padding(.horizontal, 30)
-                    Toggle("Great Eastern Singapore", isOn: $checkboxDefault)
+                    Toggle("Great Eastern Singapore", isOn: $greatEasternCheckboxDefault)
                         .toggleStyle(.switch)
                     Spacer()
-                    //                    .padding(.horizontal, 10)
                 }
                 
                 HStack {
                     Spacer()
-                    //                    .padding(.horizontal, 10)
-                    Toggle("Prudential Singapore", isOn: $checkboxDefault)
+                    Toggle("Prudential Singapore", isOn: $prudentialCheckboxDefault)
                         .toggleStyle(.switch)
                     Spacer()
-                    //                    .padding(.horizontal, 10)
                 }
             }
+            
             Spacer()
+            
+            NavigationLink {
+                
+            } label: {
+                Text("Notify")
+                    .foregroundColor(.white)
+                    .padding()
+                    .background(
+                        Capsule (style: .continuous)
+                    )
+            }
         }
         .padding()
     }
